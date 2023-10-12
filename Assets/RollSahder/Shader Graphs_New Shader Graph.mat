@@ -10,8 +10,6 @@ Material:
   m_Name: Shader Graphs_New Shader Graph
   m_Shader: {fileID: -6465566751694194690, guid: c6aeeff495fece248a4cf8be0aa6ded3,
     type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords:
@@ -24,7 +22,6 @@ Material:
     RenderType: Transparent
   disabledShaderPasses:
   - DepthOnly
-  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -32,8 +29,16 @@ Material:
         m_Texture: {fileID: 2800000, guid: c7065475493f18c448d8f1097c6b59aa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Noise_Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Normal:
         m_Texture: {fileID: 2800000, guid: d426499c30f719f4d8030ca24e237ec6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2DLOD_41c396f2bdf448d4bb5413cd312c2f66_Texture_1:
+        m_Texture: {fileID: 2800000, guid: fcd57af39d71640478454a66d4e68691, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_2cdd6734f42741d792a7b221a1d93423_Out_0:
@@ -68,11 +73,15 @@ Material:
     - _Dissolve: 1
     - _DstBlend: 10
     - _Edge_Thick: 0
+    - _Gradient: 0.11
+    - _Mesh_Moving: 0
     - _Metalness: 0
+    - _Offset: 0
     - _Pitch: 0.001
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _Scale_Noise_Tex: 0
     - _Smooth: 0
     - _SrcBlend: 5
     - _Start_Angle: 57.9
@@ -85,6 +94,7 @@ Material:
     m_Colors:
     - _Color: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 0}
     - _Edge_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Offset_TEx: {r: 0, g: 0, b: 0, a: 0}
     - _Scale_Texture: {r: 1, g: 103.1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5880161402570090629
