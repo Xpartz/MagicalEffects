@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2937075358342352593
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: m_transparent
+  m_Shader: {fileID: -6465566751694194690, guid: 3ecdef52a4e0a694cafdeac3e43b3126,
+    type: 3}
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - SHADOWCASTER
+  - DepthOnly
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Main_Texture:
+        m_Texture: {fileID: 2800000, guid: fcd57af39d71640478454a66d4e68691, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise_Tex:
+        m_Texture: {fileID: 2800000, guid: d7dd3c2ce10779b4e8ae75c17246f35e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2DLOD_41c396f2bdf448d4bb5413cd312c2f66_Texture_1:
+        m_Texture: {fileID: 2800000, guid: fcd57af39d71640478454a66d4e68691, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _Angle_Per_Unit: 88.5
+    - _Blend: 2
+    - _CastShadows: 0
+    - _Cull: 2
+    - _Dissolve: 2.56
+    - _DstBlend: 1
+    - _Edge_Thick: 0.015
+    - _Metalness: 0
+    - _Pitch: 0.001
+    - _Power: 0.52
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Scale_Noise_Tex: 1
+    - _Smooth: 0.47
+    - _Smoth_Gradient: 15
+    - _SrcBlend: 5
+    - _Start_Angle: 10.72
+    - _Surface: 1
+    - _UnrolledAngle: -11
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteControl: 0
+    m_Colors:
+    - _Color: {r: 0, g: 205.51157, b: 67.78654, a: 1}
+    - _Edge_Color: {r: 0.7578583, g: 0.7578583, b: 0.7578583, a: 0}
+    - _Offset: {r: -0.14, g: 0, b: 0, a: 0}
+    - _Offset_TEx: {r: 0, g: 0, b: 0, a: 0}
+    - _Scale_Texture: {r: -0.8, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

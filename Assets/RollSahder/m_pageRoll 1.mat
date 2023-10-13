@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: m_pageRoll
+  m_Name: m_pageRoll 1
   m_Shader: {fileID: -6465566751694194690, guid: c6aeeff495fece248a4cf8be0aa6ded3,
     type: 3}
   m_ValidKeywords:
@@ -24,7 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Main_Texture:
-        m_Texture: {fileID: 2800000, guid: c67cb3127162caa468d54af299521e9a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise_Tex:

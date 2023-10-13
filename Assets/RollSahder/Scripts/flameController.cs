@@ -23,11 +23,13 @@ public class flameController : MonoBehaviour
 
     private float defaultStartDissolveValue;
     private float defaultStartRollValue;
+    public Material[] targetMaterials;
 
     void Start()
     {
         objectRenderer = GetComponent<Renderer>();
-        targetMaterial = objectRenderer.material;
+        targetMaterials = objectRenderer.materials;
+
         defaultStartDissolveValue = startDissolveValue;
         defaultStartRollValue = startRollValue;
     }
@@ -56,14 +58,23 @@ public class flameController : MonoBehaviour
 
     void DissolveAnimation(float start, float end, float duration, AnimationCurve curve)
     {
-        targetMaterial.DOFloat(end, "_Dissolve", duration)
+
+        targetMaterials[0].DOFloat(end, "_Dissolve", duration)
+            .From(start)
+            .SetEase(curve);
+
+        targetMaterials[1].DOFloat(end, "_Dissolve", duration)
             .From(start)
             .SetEase(curve);
     }
 
     void RollAnimation(float start, float end, float duration, AnimationCurve curve)
     {
-        targetMaterial.DOFloat(end, "_UnrolledAngle", duration)
+        targetMaterials[0].DOFloat(end, "_UnrolledAngle", duration)
+            .From(start)
+            .SetEase(curve);
+
+        targetMaterials[1].DOFloat(end, "_UnrolledAngle", duration)
             .From(start)
             .SetEase(curve);
     }
