@@ -10,6 +10,8 @@ Material:
   m_Name: m_pageRoll
   m_Shader: {fileID: -6465566751694194690, guid: c6aeeff495fece248a4cf8be0aa6ded3,
     type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHATEST_ON
   m_InvalidKeywords: []
@@ -20,6 +22,7 @@ Material:
   stringTagMap:
     RenderType: TransparentCutout
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -36,6 +39,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2DLOD_41c396f2bdf448d4bb5413cd312c2f66_Texture_1:
+        m_Texture: {fileID: 2800000, guid: fcd57af39d71640478454a66d4e68691, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2DLOD_41c396f2bdf448d4bb5413cd312c2f66_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: fcd57af39d71640478454a66d4e68691, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -72,7 +79,7 @@ Material:
     - _BlendModePreserveSpecular: 0
     - _CastShadows: 1
     - _Cull: 0
-    - _Dissolve: -0.15
+    - _Dissolve: -3
     - _DstBlend: 0
     - _Edge_Thick: 0.015
     - _Gradient: 2.62
@@ -85,9 +92,11 @@ Material:
     - _ReceiveShadows: 1
     - _Scale_Noise_Tex: 1.54
     - _Smooth: 0
+    - _Smoth_Gradient: 15
     - _SrcBlend: 1
     - _Start_Angle: 10.72
     - _Surface: 0
+    - _UnrolledAngle: -10.22
     - _Unrolled_Angle: 6.58
     - _WorkflowMode: 1
     - _ZTest: 4
