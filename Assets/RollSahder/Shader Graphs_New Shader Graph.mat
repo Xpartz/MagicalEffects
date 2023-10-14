@@ -90,9 +90,11 @@ Material:
     - _ReceiveShadows: 1
     - _Scale_Noise_Tex: 0
     - _Smooth: 0
+    - _Smoth_Gradient: 15
     - _SrcBlend: 5
     - _Start_Angle: 57.9
     - _Surface: 1
+    - _UnrolledAngle: 0
     - _Unrolled_Angle: -187.2
     - _WorkflowMode: 1
     - _ZTest: 4
